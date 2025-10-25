@@ -8,5 +8,3 @@ def test_login_flow(driver):
     # Enter credentials and login
     login_page.login("standard_user", "secret_sauce")
 
-    # At this point, the app should open the home screen / catalog
-    # No need for extra assertions if you just want to launch and login
