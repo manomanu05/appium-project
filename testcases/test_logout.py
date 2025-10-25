@@ -11,4 +11,4 @@ def test_login_and_logout(driver):
     home_page = HomePage(driver)
     home_page.logout()
 
-    # No assertions needed if you just want to execute login → logout
+    
